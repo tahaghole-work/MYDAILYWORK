@@ -1,2 +1,2 @@
 # MYDAILYWORK
-Project I work during my internshipl at MYDAILYWORK
+Project I work during my internship at MYDAILYWORK
