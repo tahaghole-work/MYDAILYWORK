@@ -1,16 +1,39 @@
-# neon_todo
+# Task 1 – Flutter To-Do List App ✅
 
-A new Flutter project.
+This project is a **Flutter-based To-Do List application** developed as part of **Task-1 for the Android App Development Internship**.
 
-## Getting Started
+The app allows users to create, edit, delete, and complete tasks with **local data storage** using `shared_preferences`. All tasks remain saved even after closing the app.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Add new tasks  
+✅ Edit existing tasks  
+✅ Delete tasks with Undo option  
+✅ Mark tasks as completed  
+✅ Optional task notes  
+✅ Due date support  
+✅ Due date shown on home screen  
+✅ Overdue task highlighting  
+✅ Search functionality  
+✅ Filter tasks (Incomplete / Due Soon)  
+✅ Swipe gestures:
+- Swipe Right → Mark Complete (with confetti + haptic feedback)
+- Swipe Left → Delete (with Undo)
+✅ Dashboard (Total / Completed / Overdue)
+✅ Landing / Welcome page  
+✅ Animated UI  
+✅ Local Data Persistence using `shared_preferences`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠 Tech Stack
+
+- **Flutter**
+- **Dart**
+- **shared_preferences**
+
+---
+
+## 📂 Project Structure (Important Files)
