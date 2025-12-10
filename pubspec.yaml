@@ -1,35 +1,35 @@
-name: neon_todo
-description: A neon-style to-do app with animations and local persistence.
-publish_to: "none" # this is a local project
+name: quote_of_the_day
+description: A beautiful Quote of the Day app with TTS, image sharing, search, explore mode, and custom quotes.
+
+publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.18.0 <4.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  # Local persistence
-  shared_preferences: ^2.1.1
+  # Required Packages
+  shared_preferences: ^2.2.2
+  share_plus: ^7.2.0
+  flutter_tts: ^4.2.3
+  path_provider: ^2.0.15
 
-  # Common Flutter packages (optional / safe to include)
-  cupertino_icons: ^1.0.5
+  # Default
+  cupertino_icons: ^1.0.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.1
+
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
 
-  # If you later add local assets (images, fonts), add them here, for example:
+  # Uncomment if you add asset images:
   # assets:
-  #   - assets/images/
-  #
-  # fonts:
-  #   - family: Inter
-  #     fonts:
-  #       - asset: fonts/Inter-Regular.ttf
+  #   - assets/
