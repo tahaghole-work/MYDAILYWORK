@@ -1,62 +1,54 @@
-# 🎯 Advanced Flutter Quiz App
+# 🎯 Flutter Advanced Quiz App
 
-A fully-featured **Quiz Application built with Flutter** using a single-file architecture.  
-This project includes multiple quizzes, timers, lifelines, score streaks, retry system, and unique UI designs for each quiz category.
-
-> ✅ Built for Android & iOS  
-> ✅ Works perfectly in VS Code  
-> ✅ No third-party packages required  
-> ✅ Clean UI + vertical answer layout  
-> ✅ Debug banner removed  
+A modern and feature-rich **Quiz Application built using Flutter**.  
+This project showcases clean UI, multiple quiz categories, streak-based scoring, lifelines, and unique UI layouts per quiz.
 
 ---
 
 ## 🚀 Features
 
-### 🎮 Core Features
-- ✅ Multiple quiz categories:
+### 🎮 Core Gameplay
+- Multiple quiz categories:
   - General Knowledge
   - Science
   - Math
   - History
   - Sports
   - Technology
-- ✅ **10 questions per quiz**
-- ✅ **Vertical answer layout (1 option per row)**
-- ✅ Shuffle questions every time
-- ✅ Quiz timer (20 seconds per question)
-- ✅ Auto move to next question when time ends
+- 10 questions per quiz
+- Questions + options shuffle on every game
+- Vertical answer layout (1 option per line)
+- Timer per question (20 seconds)
+- Automatic next question on timeout
 
-### 🧠 Smart Game Mechanics
-- 🔥 **Score streak system & multipliers**
-- ⏳ Speed bonus for fast answers
-- 💡 Hint system (shows first letter)
-- ✂️ 50-50 Lifeline (removes two wrong options)
-- ⏭ Skip question tokens
-- 🔖 Bookmark any question
-- 🔁 Retry only incorrect questions
-- 📊 Detailed results review at the end
-- 🏆 High score tracking (session-based)
+### 🧠 Scoring & Game Mechanics
+- Score multiplier based on streak
+- Speed bonus
+- Lifelines:
+  - 50-50
+  - Hints
+  - Skip
+- Bookmark any question
+- Retry only incorrect questions
+- Detailed review after game
+- High score tracking
 
 ### 🎨 UI/UX
-- Different UI styles for each quiz
-- One-by-one vertical option display
-- Responsive layout (no overflow)
-- Light/Dark mode toggle
-- Debug label removed
-- Clean result screen with retry + review system
+- Unique UI theme per quiz category
+- Material 3 design
+- Vertical option alignment
+- Light & Dark mode toggle
+- Overflow-free responsive layout
+- Debug banner removed
 
 ---
 
 ## 🛠 Tech Stack
-
-- Flutter (Material 3)
-- Dart
-- VS Code
-- Single-file architecture (`lib/main.dart`)
-- No third-party dependencies
+- **Flutter**
+- **Dart**
+- No external packages
+- Works in **VS Code**, Android Studio, IntelliJ, etc.
 
 ---
 
-## 📂 Project Structure
-
+## 📦 Project Structure
